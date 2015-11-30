@@ -42,8 +42,9 @@
   background:url('images/youtube_magnifyingglass.png') no-repeat;
   width: 70px;
   position: relative;
-  top: -34px;
+  top: -24px;
   left: 766px;
+  height: 25px;
 }
 
 /* styles for comments */
