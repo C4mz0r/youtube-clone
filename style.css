@@ -27,13 +27,34 @@
   font-size: 13px;
 }
 
+/* styles for search */
+#search,
+#search-button {
+  position: relative;
+  top: -12px;
+}
+
+#search {
+  width: 580px;
+}
+
+#search-button input {
+  background:url('images/youtube_magnifyingglass.png') no-repeat;
+  width: 70px;
+  position: relative;
+  top: -34px;
+  left: 766px;
+}
+
 /* styles for comments */
 .comment {
   clear: both;
+  padding-top: 5px;
 }
 
 .avatar {
   float:left;
+  padding-right: 5px;
 }
 
 .commenter-name {
@@ -47,8 +68,6 @@
   color: #333;
   font-size: 11px;
   margin-left: 10px;
-  position: relative;
-  top: -3px;
 }
 
 .comment-content {
@@ -58,25 +77,6 @@
 #add-comment {
   width: 640px;
 }
-
-/*
-.commenter-name {
-  color: #167AC6;
-  font-size: 13px;
-  font-weight: Bold;
-}
-
-.comment-date {
-  color: #333;
-  font-size: 11px;
-}
-
-.comment-content {
-  font-size: 13px;
-  background-color: blue;
-}
-*/
-
 
 /* style for the advertisement */
 #ads {
@@ -94,6 +94,7 @@
 
 .related {
   clear: both;
+  margin-top: 10px;
 }
 
 .thumb-title {
