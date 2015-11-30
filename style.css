@@ -113,7 +113,9 @@
   font-size:  11px;
 }
 
-
+footer {
+ clear: both; /* preview from github was not putting footer at very bottom, so this resolves the issue */
+}
 
 
 
