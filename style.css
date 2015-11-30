@@ -1,0 +1,43 @@
+#player-container {
+  background-color: red;
+  float: left;
+  awidth: 40%;
+  
+}
+
+#related-container {
+  /* background-color: blue; */
+  float: left;
+  width: 30%;
+  margin-left: 10px;
+  
+}
+
+
+.comment {
+  clear: both;
+}
+
+.avatar {
+  float:left;
+}
+
+.commenter-name {
+  float:left;
+}
+
+#ads {
+  height: 265px;
+  font: 15px arial, sans-serif;
+  color: red;
+  border: 10px solid red;
+  text-align: center;
+}
+
+.thumbnail {
+  float:left;
+}
+
+.related {
+  clear: both;
+}
