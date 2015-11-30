@@ -2,8 +2,10 @@
 /* my stuff starts below */
 
 #page-container {
+  /* try to remove the centering logic
   margin: 0 auto;
   width: 1000px;
+  */
 }
 
 #player-container {
@@ -14,7 +16,7 @@
 #related-container {
   /* background-color: blue; */
   float: left;
-  width: 30%;
+  width: 20%;
   margin-left: 10px;
   
 }
